@@ -1,0 +1,93 @@
+/****************************
+Google Fonts
+****************************/
+/*google.com/fonts*/
+/*Treehouse Link: https://teamtreehouse.com/library/how-to-make-a-website/customizing-colors-and-fonts/pick-fonts-and-set-relative-units*/
+
+
+/****************************
+GENERAL
+****************************/
+
+/*Attributes for Divider Wrapper*/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto; /*Spacing around element (top/bottom, left/right)*/
+  padding: 0 5%
+}
+
+
+/*Anchor Attributes*/
+a {
+ /*Removes underlines from links*/
+ text-decoration: none; 
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+#logo {
+    /*Text-align - Sets the justification of text, similar to a word processor. For example, text can be set to be aligned to the left, right, or center.*/
+    text-align:center;
+    margin:0;
+}
+
+/*Sets Google Font*/
+h1 {
+    font-family:'Change One', sans-serif; /*Main Font and Backup Font*/
+    margin: 15px 0;
+    font-size: 1.75em;
+
+}
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* Site Body */
+body {
+ background-color: #fff; 
+ color:#999;
+}
+
+
+/*green header*/
+header {
+  background:#6ab47b;
+  border-color:#599a68
+}
+
+
+/* nav background on mobile*/
+nav {
+  background:#599a68;
+}
+
+
+/* logo text */
+h1, h2{
+  color:#000;
+}
+
+
+/* links */
+a {
+  color:#6ab47b;
+}
+
+
+/* Nav Link */
+nav a, nav a:visited {
+  color:#fff;
+}
+
+/* Selected Nav Link */
+nav a.selected, nav a:hover {
+  color:#32673f;
+}
+
